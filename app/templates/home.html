@@ -1,0 +1,18 @@
+#.{% extends "base.html" %}: herda a estrutura do (base.html). #.Blocos:
+substituem os blocos definidos no base.html para montar a página. {% extends
+"base.html' %} {% block title %}Inicio - Plataforma Blog{% endblock %} {% block
+content %}
+<section>
+  <h2>Bem-vindo ao Blog</h2>
+  <p>Escreva, compartilhe e descubra posts.</p>
+  <a class="btn" href="#">Criar novo post</a>
+</section>
+
+<section class="posts">
+  <article class="posts">
+    <h3>Título do post de exeplo</h3>
+    <p.>Resumo do post de exemplo. Em breve aqui  teremos posts reais vindos do bancocos de dados.</p.>
+    <a href="#" class="read-more">Ler mais</a>
+  </article>
+</section>
+{% endblock %}

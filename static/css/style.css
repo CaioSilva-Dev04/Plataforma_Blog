@@ -1,0 +1,68 @@
+:root {
+  --bg: #f7f7f7;
+  --primary: #2b6cb0;
+  --text: #222;
+  --muted: #666;
+}
+
+*{box-sizing:border-box}
+body{
+    font-family: Inter, system-ui, Arial, sans-serif;
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.5; 
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding:1rem;
+}
+.site-header{
+    background:#fff;
+    border-bottom:1px solid #e6e6e6
+}
+.site-title{
+    margin:0;
+    padding:1rem 0;
+    display:inline-block;
+}
+.site-title a{
+    text-decoration:none;
+    color:var(--primary)
+}
+.main-nav{
+    float:right;
+    padding-top:1rem;
+}
+.main-nav a{
+    margin-left:1rem;
+    text-decoration:none;
+    color:var(--muted)
+}
+.hero{
+    background:#fff;
+    padding:2rem;
+    margin:1rem 0;
+    border-radius:6px
+}
+.btn{
+    display:inline-block;
+    padding: .5rem 1rem;
+    background:var(--primary);
+    color:#fff;
+    border-radius:4px;
+    text-decoration:none;
+}
+.post{
+    background:#fff;
+    padding:1rem;
+    margin:1rem 0;
+    border-radius:6px;
+}
+.site-footer{
+    padding:1rem 0;
+    text-align:center;
+    color:var(--muted);
+    margin-top:2rem
+}
